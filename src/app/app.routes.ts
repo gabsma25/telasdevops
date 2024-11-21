@@ -6,6 +6,7 @@ import { Routes } from '@angular/router';
 // Importa os componentes que serão exibidos quando o usuário acessar as respectivas rotas.
 import { LoginComponent } from './pages/login/login.component';
 import { HomeComponent } from './pages/home/home.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 // Define o array de rotas da aplicação.
 export const routes: Routes = [
@@ -19,4 +20,6 @@ export const routes: Routes = [
 
     // Rota para o caminho 'home', que renderiza o HomeComponent.
     { path: 'home', component: HomeComponent },
+    { path: 'register', component: RegisterComponent },
+
 ];
